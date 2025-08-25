@@ -10,6 +10,7 @@ public class Giiteg {
 	System.setProperty("webdriver.chrome.driver","C:\\Users\\USER\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://www.facebook.in");
+	System.out.println("facebook page launched");
 		}
 
 }
